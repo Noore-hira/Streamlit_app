@@ -47,14 +47,32 @@ st.markdown(
             font-weight: bold;
         }
     .st-emotion-cache-1bixfc7{
-            color: white;
-            font-size: 20px;
+            color: rgb(49, 51, 63);
+            color: rgb(215, 217, 225);
+            color: rgb(217, 219, 234);
+            color-scheme: light;
+            color: rgb(217, 219, 234);
+            font-size: 30px;
             font-weight: bold;}
     .st-emotion-cache-1r4qj8v{
-            color: white;
+            color: rgb(49, 51, 63);
+            color: rgb(215, 217, 225);
+            color: rgb(217, 219, 234);
+            color-scheme: light;
+            color: rgb(217, 219, 234);
             font-size: 20px;
             font-weight: bold;
         }
+    p, ol, ul, dl {
+           font-size: 1rem;
+           font-size: 1.1rem;
+           margin: 0px 0px 1rem;
+           padding: 0px;
+           font-size: 1.1rem;
+           font-weight: bold;
+           font-weight: 400;
+           font-weight: bold;
+}
     </style>
     """,
     unsafe_allow_html=True

@@ -49,6 +49,12 @@ st.markdown(
         .st-emotion-cache-6qob1r {
         background-color: #FFDDC1;  /* changing colour of sidebar */
         }
+        .st-emotion-cache-ue6h4q {
+             color: rgb(49, 51, 63);
+             font-size: 14px;
+             color: rgb(240, 241, 246);
+             visibility: visible;
+             color: rgb(240, 241, 246);
         </style>
         """,
         unsafe_allow_html=True
