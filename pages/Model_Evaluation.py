@@ -59,9 +59,9 @@ st.markdown('<div class="model-title">Evaluating Model Performance</div>', unsaf
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Datasets\Training.csv")
+    return pd.read_csv("Datasets/Training.csv")
 training_data = load_data()
-testing_data=pd.read_csv('Datasets\Testing.csv')
+testing_data=pd.read_csv('Datasets/Testing.csv')
 
 # Define the symptom list (based on the dataset columns)
 symptoms = training_data.columns[:-1].tolist()  # All columns except the last one (disease)
