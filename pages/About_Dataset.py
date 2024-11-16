@@ -32,7 +32,7 @@ st.markdown('<div class="model-title">All About Dataset That We Have Used</div>'
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Datasets\Training.csv")
+    return pd.read_csv("Datasets/Training.csv")
 df = load_data()
 st.markdown('<div class="subheading">First 5 Rows of Dataset</div>', unsafe_allow_html=True)
 st.write(df.head())
