@@ -8,7 +8,7 @@ import base64
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("Datasets\Training.csv")
+    return pd.read_csv("Datasets/Training.csv")
 df = load_data()
 st.markdown(
         """
