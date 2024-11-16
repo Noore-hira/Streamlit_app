@@ -46,11 +46,11 @@ st.markdown(
             margin-top: 20px;
             font-weight: bold;
         }
-    .st-emotion-cache-9ib023 li{
+    .st-emotion-cache-1bixfc7{
             color: white;
             font-size: 20px;
             font-weight: bold;}
-    .st-emotion-cache-9ib023 p{
+    .st-emotion-cache-1r4qj8v{
             color: white;
             font-size: 20px;
             font-weight: bold;
